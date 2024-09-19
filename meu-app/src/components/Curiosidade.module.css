@@ -1,0 +1,34 @@
+
+#curiosidades {
+    padding: 8px;
+    text-align: left;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.conteiner{
+    flex-basis: calc(50% - 30px);
+    margin: 10px;
+    text-align: center;  
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 20px solid white;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #861553;
+    color: white;
+}
