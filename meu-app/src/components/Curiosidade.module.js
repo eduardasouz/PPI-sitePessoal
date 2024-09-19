@@ -1,24 +1,22 @@
-import styles from '/Curiosidade.module.css'
-
 function Curiosidade(){
     return(
-        <div className={styles.container}>
+        <div className='conteiner'>
         <section id="Curiosidade">
             <article>
             <h2>5 curiosidades sobre mim:</h2>
             <div>
                 <p>Sou apaixonada por crianças, esse ai é meu zezé</p>
-                <imag></imag>
+                <img src='/imagens/zeze.jpeg' width="200" height="250" ></img>
                 
                 <p>Livros de romance são meus preferidos</p>
-                <imag></imag>
+                <img src='/imagens/livros.jpeg' width="200" height="250" ></img>
                
                 <p>Tenho duas melhores amigas espetaculares</p>
-                <imag></imag>
+                <img src='/imagens/meninas.jpeg' width="200" height="250" ></img>
                 <p>Eletronica é meu hobby</p>
-                <imag></imag>
+                <img src='/imagens/hooby.jpeg' width="200" height="250" ></img>
                 <p>Eu sou completamente apaixonada por cachorros</p>
-                <imag></imag>
+                <img src='/imagens/camila.jpeg' width="200" height="250" ></img>
             </div>
             </article>
         </section>

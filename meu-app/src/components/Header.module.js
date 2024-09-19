@@ -1,14 +1,11 @@
-
-import styles from './Header.module.css' 
-
 function Header() {
     return (
         <header>
             <nav>
                 <ul>
-                    <li><a href="#curiosidades">Curiosidades</a></li>
-                    <li><a href="#habilidades">Habilidades</a></li>
-                    <li><a href="#contato">Contato</a></li>
+                    <li><a href="#Curiosidade">Curiosidade</a></li>
+                    <li><a href="#Contato">Contato</a></li>
+                    <li><a href="#Projetos">Projetos</a></li>
                 </ul>
             </nav>
            
